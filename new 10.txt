@@ -1,0 +1,15 @@
+1) How tree map works internally.
+2) What is fail-fast fail-safe
+
+
+3) Spring boot. How to set default property value in spring boot.
+	If property doesn't exist in property value in bean class we can provide default valued at declearation only
+	
+Ex	
+	Public UserService{
+		@Value("${app.name:Default app Name}")//If app.name doesn't exist in property file it will take it from here.
+		String appName
+	}
+4) What happns when server.port is 0 in perperty file.
+	While starting the server. Spring boot will start what ever avaliable port number. It may not use same port again, When it restarts.
+

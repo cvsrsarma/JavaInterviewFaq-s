@@ -1,0 +1,27 @@
+1) Difference between stream and Parller stream?
+2) Consumer/Predicatre default methods?
+3) Exception Handling in Lamdba expression?
+4) Volatile keyword in Java?
+5) What is Generic?
+6) Try with resources
+7) Multi catch block?
+8) Excuter framework?
+9) why only one null key is allowed in hashmap?
+
+
+
+Hibernate
+1) Hibernate mapping types (Table per Class. Table for subclass etc)
+2) How to do pagination in Hibernate?
+
+
+
+Web/Spring/Sptingboot/
+1) Why Http is stateless protocall? 
+2) Difference between ResponseEntity, Request entity Request body, Response body?
+3)@Contraller advice @Exception handler in spring and is there any other way to handle exceptions?
+4) How to maintain Redis Cache in Rest application?
+
+
+Angular/JQuery/JS/Ajax
+1) Exception handling in Angular/JQuery/JS/Ajax

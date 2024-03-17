@@ -1,0 +1,50 @@
+
+1. Introduce yourself.
+2. UI skills (Angular etc)
+3. what id older UI skills you have.
+4. What different security mechanisms can be implemented in spring boot based applications.
+5. Sonarcube, Java code coverage differences
+6. With Respect to Microservices how do you design databases.
+7. Pipelines - What kind of experience do you have.
+8. Retirement framework (Probably they have asked because I have mentioned about this)
+9. How do you do exception handling for your application.
+10 Agile methodology, different tools you work with. How do you arrive at scoring for story points.
+11. Circuit breaker pattern / Hystrix. explain.
+12. Scheduling. how did you implement in spring boot.
+13. Different databases you have used.
+14. How do you monitor the services in microservices area.
+
+Rest Services
+Angular
+Spring Cloud : Circuit breaker design pattern
+Sonar_cube VS Java_code_coverage
+Exception handling in Spring boot ( how to customize exception and messaging )
+JPA repository VS CURD repository
+large set data scenario, pagination
+build Pipelines
+How did you Secure Services ( JWT )
+what was Monitoring mechanism ( Services )
+DB connections
+Agile ( pointing, retrospective.....other ceremonies )
+JIRA
+
+
+What is Angular and its features
+- Architechture of Angular (components, templates, directives, modules, dependency injection)
+- what building blocks of angular
+- Explain Routing in Angular
+- Ways to communicate from parent to child(or how to send data from parent to child) - @Input
+- how to send data from child to parent component - @output, EventEmitter
+- how many ways to communicate between components (@input, @output, Behavioural Subjects, services....)
+- what is service and how to create services in angular (ng generate service @serviceName)
+- what are observables 
+- what are modules
+- life cycle hook in angular
+- what is main.ts
+- how to bootstrap the component
+- what is AOT in angular
+- what are pipes in angular
+- what are directives
+- property binding and event binding (interpollation [] and () used diff for bindings)
+- Diff b/w angular5 and 7 (added DoBootstrap Interface, Url segment to canLoad interface)
+- testing in angular

@@ -1,0 +1,98 @@
+HTML:
+1.What are tags?
+2.Do all HTML tags come in pair? 
+3.How can we insert comment in HTML.
+4.How to identify a HTML5 file?
+5.How to change the list-style (example remove the bullets).
+6.Difference between div and Span.
+7.Can we redirect to two web pages from a single anchor?
+8.How to include script in html5?
+9. Name 5 features in HTML5.
+10.What happens if in a web page we exchange <footer> and <header> tag .
+11.Can a page contain multiple header and footer tags?
+12.What will happen if you don’t specify doctype in html?
+13.What do you mean by markup in HTML?
+
+CSS:
+1.	What are position relative and position absolute?
+2.	How can you achieve responsive designing through CSS?
+3.	What is Browser-specific media query? Example
+4.	What is Z-index.
+5.	In how many ways we can write CSS?
+6.	What are selectors? 
+7.	What are pseudo selectors.
+8.	What is attribute selector.
+9.	How traversing to child selector done in CSS?
+10.	List the media types in CSS.
+11.	Why should id be unique?
+12.	What is SCSS?
+13.	What is the difference between CSS and SCSS?
+14.	What is calc()?
+15.	What is the difference between left and margin-left?
+16.	What is the difference between padding and margin?
+17.	What is float property in css?
+18.	What are  :before and :after?
+
+Bootstrap:
+1.	How to include bootstrap in a project?
+2.	What is the difference between bootstrap and CSS?
+3.	How is margin and padding achieved using bootstrap class.
+4.	What is the carousel?
+5.	Can we customize bootstrap properties?
+6.	What is a progress bar in Bootstrap?
+7.	Difference between container and container-fluid.
+8.	What will happen if we donot place a column within a row?
+9.	How to achieve responsive design through bootstrap?
+10.	How to implement pagination and stepper?
+11.	What is form-control?
+12.	What is jumbotron?
+13.	How can you make an image responsive?
+14.	What are panels?
+
+Javascript:
+1.	What are datatypes in javascript?
+2.	Is javascript case-sensitive?
+3.	What is the purpose of “this” operator in javascript?
+4.	What is closure?
+5.	What is local storage and session storage?
+6.	What is the difference between the operators ‘==‘ & ‘===‘?
+7.	What is the difference between null and undefined?
+8.	What is settimeout()?
+9.	What is the syntax of conditional ternary operator?
+10.	What is NaN?
+11.	What are prototypes?
+12.	Ways to filter data from an array.
+13.	What is arrow function?
+14.	Callback function?
+Angular
+1.	How to create a new angular project?
+2.	What are components and modules in Angular?
+3.	What is service in Angular?
+4.	How can we communicate between parent and child component?
+5.	What is ngOnInit()?
+6.	What is ngOnChanges()?
+7.	What is eventEmitter?
+8.	How to call a http service in Angular?
+9.	What are ng-container and ng-template?
+10.	How to validate a form?
+11.	What is the difference between synchronous and asynchronous call?
+12.	What is subscribe()?
+13.	Can we use one form for two scenarios having similar validations but different submit values?
+14.	How to create a component(command)? Can it be created manually?
+15.	How can we use accessibility in angular?
+16.	How many types of bindings are there?
+17.	What is string interpolation?
+18.	What is the purpose of spec.ts?
+19.	What is pipe? Can we create customize pipes?
+20.	What is the difference between observable and promise?
+21.	Is promise cancellable?
+22.	What is state.
+23.	Nginx?
+24.	What are observers ? What all observers do we have?
+25.	What does then() do in promise?
+26.     What is lazyloading? Ho is it achieved.
+27.     AOT and JIT compilers?
+28.     What is routing, how to achieve it?
+
+
+

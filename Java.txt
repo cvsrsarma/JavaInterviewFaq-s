@@ -1,0 +1,114 @@
+Core Java Questions -
+    What does OOPS in Java mean?
+    What do you mean by platform independence of Java?
+    What is JVM and is it platform independent?
+    What is the difference between JDK and JVM?
+    What is the difference between JVM and JRE?
+    Which class is the superclass of all classes?
+    Why Java doesn’t support multiple inheritance?
+    Why Java is not pure Object Oriented language?
+    What is difference between path and classpath variables?
+    What is the importance of main method in Java?
+    What is overloading and overriding in java?
+    Can we overload main method?
+    Can we have multiple public classes in a java source file?
+    What is Java Package and which package is imported by default?
+    What are access modifiers?
+    What is finally and finalize in java?
+    Can we declare a class as static?
+    What is static import?
+    What is try-with-resources in java?
+    What is multi-catch block in java?
+    What is static block?
+    What is the difference between abstract class and interface?
+    Can an interface implement or extend another interface?
+    What is Marker interface?
+    What are Wrapper classes?
+    What is Java Annotations?
+    What is Java Reflection API? 
+    What is composition in java?
+    What is the benefit of Composition over Inheritance?
+    How to sort a collection of custom Objects in Java?
+    What is inner class in java?
+    What is anonymous inner class?
+    What is Classloader in Java?
+    What are different types of classloaders?
+    What is ternary operator in java?
+    Can we have try without catch block?
+    What is Garbage Collection?
+    What is Serialization and Deserialization?
+    How to run a JAR file through command prompt?
+    What is the use of System class?
+    What is instanceof keyword?
+    Can we use String with switch case?
+    Java is Pass by Value or Pass by Reference?
+    What is difference between Heap and Stack Memory?
+    Java Compiler is stored in JDK, JRE or JVM?
+    What will be the output of following programs?
+
+Java 8 -
+What is Lambda Expression?
+What are the three parts of a Lambda Expression? What is the type of Lambda Expression?
+What is a Functional Interface? What is SAM Interface?
+Is is possible to define our own Functional Interface? What is @FunctionalInterface? What are the rules to define a Functional Interface?
+Is @FunctionalInterface annotation mandatory to define a Functional Interface? What is the use of @FunctionalInterface annotation? Why do we need Functional Interfaces in Java?
+When do we go for Java 8 Stream API? Why do we need to use Java 8 Stream API in our projects?
+Explain Differences between Collection API and Stream API?
+What is Spliterator in Java SE 8?Differences between Iterator and Spliterator in Java SE 8?
+What is Optional in Java 8? What is the use of Optional?Advantages of Java 8 Optional?
+What is Type Inference? Is Type Inference available in older versions like Java 7 and Before 7 or it is available only in Java SE 8?
+
+
+Java Collections -
+
+What are the basic interfaces of Java Collections Framework?
+Why Collection doesn’t extend Cloneable and Serializable interfaces?
+Why Map interface doesn’t extend Collection interface?
+What is an Iterator?
+What is the difference between Enumeration and Iterator interface?
+Why there is not a method like Iterator.add() to add elements to the collection?
+Why Iterator don’t have a method to get next element directly without moving the cursor?
+How to avoid ConcurrentModificationException while iterating a collection?
+Why there are no concrete implementations of Iterator interface?
+What is UnsupportedOperationException?
+What is the importance of hashCode() and equals() methods?
+Can we use any class as Map key?
+What are different Collection views provided by Map interface?
+What is difference between HashMap and Hashtable?
+How to decide between HashMap and TreeMap?
+What is difference between ArrayList and LinkedList?
+Which collection classes provide random access of its elements?
+Which collection classes are thread-safe?
+What are concurrent Collection Classes?
+What is Comparable and Comparator interface?
+While passing a Collection as argument to a function, how can we make sure the function will not be able to modify it?
+
+
+Java Multi-Threading- ( recently added)
+How can we create a Thread in Java?
+What are different states in lifecycle of Thread?
+Can we call run() method of a Thread class?
+How can we pause the execution of a Thread for specific time?
+What is context-switching in multi-threading?
+How can we make sure main() is the last thread to finish in Java Program?
+How does thread communicate with each other?
+Why thread communication methods wait(), notify() and notifyAll() are in Object class?
+Why wait(), notify() and notifyAll() methods have to be called from synchronized method or block?
+What is Thread Group? Why it’s advised not to use it?
+What is Java Thread Dump, How can we get Java Thread dump of a Program?
+What is Deadlock? How to analyze and avoid deadlock situation?
+
+
+Java Exception handling-
+
+Explain Java Exception Hierarchy?
+What are important methods of Java Exception Class?
+What is difference between Checked and Unchecked Exception in Java?
+What is difference between throw and throws keyword in Java?
+How to write custom exception in Java?
+What is OutOfMemoryError in Java?
+What happens when exception is thrown by main method?
+Can we have an empty catch block?
+Provide some Java Exception Handling Best Practices?
+
+

@@ -1,0 +1,18 @@
+
+Why we need Spring Boot?
+Spring Boot Components
+What is Spring Boot Starter? Name a few. What starter applications have you worked with?
+What is Spring Boot AutoConfigurator?
+How to Disable a Specific Auto-Configuration?
+What is Spring Boot Actuator?
+How to Register a Custom Auto-Configuration?
+How to Tell an Auto-Configuration to Ignore Initialization When a Bean Exists?
+What Are Possible Sources of External Configuration?
+What is Spring Boot Devtools Used For?
+
+Explain what is Unit Test Case?
+Explain how you can write a simple JUnit test case?
+Mention what are parameterized tests?
+How do setup unit test suite?
+
+

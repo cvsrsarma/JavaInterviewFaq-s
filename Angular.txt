@@ -1,0 +1,34 @@
+Angular JIT 				AOT
+-------------------------------------------
+just-in-time (JIT) compilation (also dynamic translation or run-time compilations) is a way of executing computer code that involves compilation during execution of a program — at run time — rather than prior to execution.
+
+An ahead-of-time (AOT) compiler converts your code during the build time before the browser downloads and runs that code. Compiling your application during the build process provides a faster rendering in the browser.
+
+life cycle hook in angular
+--------------------------------
+constructor------------>This is invoked when Angular creates a component or directive by calling new on the class.
+ngOnChanges------------>Invoked every time there is a change in one of th input properties of the component.
+ngOnInit--------------->when given component has been initialized. This hook is only called once after the first ngOnChanges
+ngDoCheck-------------->Invoked when the change detector of the given component is invoked. It allows us to implement our own change detection algorithm for the given component.
+
+
+- Architechture of Angular (components, templates, directives, modules, dependency injection)
+- what building blocks of angular
+- Explain Routing in Angular
+- Ways to communicate from parent to child(or how to send data from parent to child) - @Input
+- how to send data from child to parent component - @output, EventEmitter
+- how many ways to communicate between components (@input, @output, Behavioural Subjects, services....)
+- what is service and how to create services in angular (ng generate service @serviceName)
+- what are observables 
+- what are modules
+- life cycle hook in angular
+- what is main.ts
+- how to bootstrap the component
+- what is AOT in angular
+- what are pipes in angular
+- what are directives
+- property binding and event binding (interpollation [] and () used diff for bindings)
+- Diff b/w angular5 and 7 (added DoBootstrap Interface, Url segment to canLoad interface)
+- testing in angular-----> we can use Karma for testing angular component.
+
+How u will do Routing----->1) Add components in app routing module.ts file 2) Add Routeliks in html 3) add router outlet component in html.

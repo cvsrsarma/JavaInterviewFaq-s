@@ -1,0 +1,66 @@
+Handle Exception in spring boot 
+-------------------------------------------
+Controller Advice
+
+The @ControllerAdvice is an annotation, to handle the exceptions globally.
+Exception Handler
+The @ExceptionHandler is an annotation used to handle the specific exceptions and sending the custom responses to the client.
+each customer exception will be handled in ControllerAdvice and set exception message and status code.
+
+what was Monitoring mechanism ( Services )
+---------------------------------------------
+Monitering spring boot
+Spring Boot Actuator provides secured endpoints for monitoring and managing your Spring Boot application. By default, all actuator endpoints are secured. 
+
+@RestController 			= 			@Controller+@ResponseBody
+----------------------------------------------------------------
+1) Restfull services						Spring MVC
+2) intruduced in Spring 4					Spring 2.5
+3) there is no view solver concept			return view resolver and helps to render the view in UI
+
+Discover services can be done for 
+--------------------------------------
+Netflix euroka which will service 
+
+Rest service documenttaion
+---------------------------
+Swagger is used for the service documentaion and request and response objects formats/payloads
+
+Circuit breaker pattern / Hystrix. explain.
+----------------------------------------------
+Retrys when a micro service failuers 
+
+Scheduling. in Springboot
+----------------------------
+@Scheduleenable in spring boot class which enables to scheduling process, Spring boot main class
+@Scheduled(fixedDelay=millisec) for each method in component/Bean
+We can use fixedDelay, fixedRate, Initialdelay for different purpose.
+
+we need to use 
+
+Sonar
+----------------------
+is quality gate.
+Java code coverage is part of sonar it covers code coverage basically junits.
+Coding stands rules.
+
+Java Code Coverage
+-------------------------
+IT helps who much code can be tested, We should target for 80%.
+	1) Function coverage, need to make sure all functions are called.
+	2) Stagements, we need to make sure all statements are executed.
+	3) conductions we need to make sure all conduction statement are executed.
+	4) branch, We need to make sure all conduction based branches shoule be executed. 
+	5) Lines Coverage, Total lines are covered.
+
+Code coverage retports identify missing in testing.
+
+
+
+Exclude component scan
+@qualifier
+how mockitO works, how can I mock private methods.
+Difference between @Bean, @Component\@Repository and @Service
+@curd vs @JPA Repository
+
+

@@ -1,0 +1,25 @@
+1) Tell me about yourself and tech stack and project.
+2) Did you develop any end to end services in Rest services
+3) what kind of API did you develop recently?
+4) What is the request and response for the API develop which you develop recently?
+5) how did you implemented pagging?
+6) What is your approch on pagging 100K recored?   No answer
+
+7) How did you tested your angular codebase?
+8) Have you made any end to end to Rest call in angular?  50%
+9) In Html
+10) Did you handle transcation in sping boot?
+11) What is lazy inlization? 50%
+12) Have you used any relation like one to one, one to many?
+13) you did you worked on agile?
+14) How many week is sprint?
+15) Once you get user story? how to start working on it?
+16) While you write testing services what type of testing you did?
+17) What is sonar? what is this report?
+18) Where did you deply your code?
+19) How do you monitor Microservices?
+20) How do you get that alert?
+21) How pipeline work?
+22) in term of microservie did you use any spring cloud?
+23) Did you spring cloud?
+24) What are the failuers?

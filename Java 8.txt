@@ -1,0 +1,53 @@
+Java 8 Features
+----------------
+1) Lambda			2) Functional Interface			3) Method reference			4) Default Methods			5) Optional Class			6) Stream Api
+7) Data Api			8) Javascript eng
+
+ṇOptional Class
+-------------------------
+ITs wrapper around class. Using this null pointer can be avoide. Optional.isPresent to check object exist or not.
+
+Default Methods and Static Methods
+------------------------------------
+Default methods and Static methods are intruduced in interfaces. There are tons of java liberies are there. 
+Any existing liberies needs to be updated until java 8, we dont have option creating new interface extending old interface and add new method.
+or Change current interface and force consumer to update their implementaion. Java 8 unlock the interface concept and allowed default method implementaions in interfaces itself.
+Allowing default methods give Its backword compactablity for existing liberies.
+
+Functional Interface or SAM interface
+----------------------------------
+A interface which has one single abstract methods can be a functional interface. It can have as many as default and static methods but only one abstract method.
+If we did use @functionalInterface. compiler doesn't allow more than one abstract method.
+Using Functional interface we can pass behaviour in Lambda expression. It provides target types for lambda expressions and method references.
+
+Method Reference
+--------------------------------------
+compart version of lambda is method reference
+System::println
+
+Iterator 												|				 Spliterator?
+---------------------------------------------------------------------------------------	
+Iterator is java 1.2 I guess.							|  	Java 8 obsualy                                 
+Its used for collection api								| 	Steram api
+next, has next											|	try advanced
+Sequeantial order										| 	paraller order
+
+java.util.Date---------------------->is mutable and not thread safe. 
+Even java.text.SimpleDateFormat is also not Thread-Safe. New Java 8 date and time APIs are thread safe.
+Performance: Java 8 ‘s new APIs are better in performance than old Java APIs.
+
+Useage
+	------
+	1) Immutable objects are thread-safe so you will not have any synchronization issues. 
+	2) Immutable objects are good Map keys and Set elements, since these typically do not change once created.
+    3) The internal state of your program will be consistent even if you have exceptions.
+	4) References to immutable objects can be cached as they are not going to change.
+
+
+
+
+
+
+
+
+

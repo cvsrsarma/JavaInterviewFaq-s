@@ -1,0 +1,35 @@
+
+Why we need Spring Boot?------->1) Its a open-source micro framework. 2) Reduces development time and increases the overall productivity of the development team. 3) Helps you autoconfigure all components for a production-grade Spring application.
+4) Avoids writing lots of boilerplate code, annotations, and XML configuration. 5) Comes with embedded HTTP servers like Tomcat or Jetty to test web applications.
+
+Spring Boot Components
+What is Spring Boot Starter? Name a few. What starter applications have you worked with?
+-------------------------------
+pring Boot provides a number of starters that allow us to add jars in the classpath. Spring Boot built-in starters make development easier and rapid. For example, if we want to use Spring and JPA for database access, we need to include the spring-boot-starter-data-jpa dependency in our pom. ...
+
+What is Spring Boot AutoConfigurator?
+------------------------------------
+Spring Boot auto-configuration attempts to automatically configure your Spring application based on the jar dependencies that you have added. You need to opt-in to auto-configuration by adding the @EnableAutoConfiguration or @SpringBootApplication annotations to one of your @Configuration classes
+
+How to Disable a Specific Auto-Configuration?
+------------------------------------------------
+@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
+
+What is Spring Boot Actuator?
+How to Register a Custom Auto-Configuration?
+How to Tell an Auto-Configuration to Ignore Initialization When a Bean Exists?
+What Are Possible Sources of External Configuration?
+What is Spring Boot Devtools Used For?
+
+Explain what is Unit Test Case?
+Explain how you can write a simple JUnit test case?
+Mention what are parameterized tests?
+How do setup unit test suite?
+
+
+    @Component is a generic stereotype for any Spring-managed component
+    @Service annotates classes at the service layer
+    @Repository annotates classes at the persistence layer, which will act as a database repository
+
+
+

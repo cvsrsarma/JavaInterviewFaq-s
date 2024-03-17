@@ -1,0 +1,74 @@
+https://www.lambdatest.com/blog/design-patterns-for-micro-service-architecture/
+https://www.lambdatest.com/blog/9-fundamentals-to-a-successful-microservice-design/
+https://www.lambdatest.com/blog/top-29-microservices-interview-questions-for-2019/
+
+Q1: How do you create a Immutable Data Structure?
+Q2: How do you design a elevator system?
+Q4: What is Singleton pattern?    
+Q5: What is Dependency Injection?    
+Q6: What is Inversion of Control?    
+Q7: Name types of Design Patterns?    
+Q8: What is Factory pattern?    
+Q9: Can we create a clone of a singleton object?    
+Q10: What is Builder pattern?    
+Q11: What is Filter pattern?    
+Q12: What is Proxy pattern?    
+Q13: What is Iterator pattern?    
+Q14: What is State pattern?    
+Q15: What is Null Object pattern?    
+Q16: What is Strategy pattern?    
+Q17: What is Template pattern?    
+Q18: What is Memento pattern?    
+Q19: What is Abstract Factory pattern?    
+Q20: What are the difference between a static class and a singleton class?    
+Q21: What is Prototype pattern?    
+Q22: What is Adapter Pattern?    
+Q23: What is Bridge pattern?    
+Q24: When should I use composite design pattern?    
+Q25: What does “program to interfaces, not implementations” mean?    
+Q26: What is Decorator pattern?    
+Q27: What is Facade pattern?    
+Q28: Can you give any good explanation what is the difference between Proxy and Decorator?    
+Q29: What is the Chain of Responsibility pattern?    
+Q30: What is Command pattern?    
+Q31: What is Interpreter pattern?    
+Q32: What is Mediator pattern?    
+Q33: What is Observer pattern?    
+Q34: How is Bridge pattern is different from Adapter pattern?    
+Q35: When would you use the Builder Pattern? Why not just use a Factory Pattern?    
+Q36: What is Flyweight pattern?    
+Q37: Why would I ever use a Chain of Responsibility over a Decorator?    
+Q38: Explain usage of Service Locator Pattern    
+Q39: What is the difference between Strategy design pattern and State design pattern?    
+Q40: Explain what is Composition over inheritance?    
+Q41: Explain difference between the Facade, Proxy, Adapter and Decorator design patterns?    
+Q42: What's the difference between the Dependency Injection and Service Locator patterns?    
+Q43: Could you explain the difference between Façade vs. Mediator?    
+Q44: What is the difference between the template patterns and the strategy pattern?    
+Q45: Could you explain what is the "deadly diamond of death"?    
+
+Q5: Why we need to do algorithm analysis?    
+Q6: What is asymptotic analysis of an algorithm?    
+Q7: What is linear data structure and what are common operations to perform on it?    
+Q8: What examples of greedy algorithms do you know?    
+Q9: What are some examples of divide and conquer algorithms?    
+Q10: What are some examples of dynamic programming algorithms?    
+Q11: Why do we use stacks?    
+Q12: Why do we use queues?    
+Q13: What is the difference between Linear Search and Binary Search?    
+Q14: What is an average case complexity of Bubble Sort?    
+Q15: What is Selection Sort?    
+Q16: Name some approaches to develop algorithms    
+Q17: What is Circular Queue and why will you use one?    
+Q18: Why is Insertion sort better than Quick sort for small list of elements?    
+Q19: Tell me something about Insertion sort?    
+Q20: List some advantages of Insertion Sort    
+Q21: How Insertion sort and Selection sorts are different?    
+Q22: What is Merge Sort and how it works?    
+Q23: What is Shell Sort?    
+Q24: How Quick Sort works?    
+Q25: What is Bucket Sort?    
+Q26: Is there any advantages of Bubble Sort?    
+Q27: Is there ever a good reason to use Insertion Sort?    
+Q28: What is Tim Sort and how would you compare it with Quick Sort?    
+Q29: Why is Quick Sort better than Merge Sort?    

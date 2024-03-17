@@ -1,0 +1,68 @@
+Collections Vs Streams
+------------------------------------
+1) Collections and Streams, both are conceptually two different things which are used for two different purposes. 
+2) Collections are used to store and group the data in a particular data structure like List, Set or Map. But, streams are used to perform complex data processing operations like filtering, matching, mapping etc on stored data such as arrays, collections or I/O resources. 
+That means, collections are mainly about data and streams are mainly about operations on data.
+3) Collections stores data. Strea work with them and it dont store data.
+4) In collections we can change data. While working with stream it doesn't impact orginal collection.
+
+map() function do? why you use it?
+--------------------------------------
+The map() function perform map functional operation in Java. This means it can transform one type of object to others by applying a function.
+
+For example, if you have a List of String and you want to convert that to a List of Integer, you can use map() to do so.
+List<String> alpha = Arrays.asList("a", "b", "c", "d");
+List<String> collect = alpha.stream().map(String::toUpperCase).collect(Collectors.toList());
+    System.out.println(collect); //[A, B, C, D]
+List<Integer> num = Arrays.asList(1,2,3,4,5);
+    List<Integer> collect1 = num.stream().map(n -> n * 2).collect(Collectors.toList());
+     System.out.println(collect1); //[2, 4, 6, 8, 10]
+	 
+What does the flatmap() function do? why you need it? 
+-------------------------------------------------------
+The flatmap function is an extension of the map function. Apart from transforming one object into another, it can also flatten it.
+
+For example, if you have a list of the list but you want to combine all elements of lists into just one list. In this case, you can use flatMap() for flattening. At the same time, you can also transform an object like you do use map() function.
+
+The main difference is that flatMap() can also flatten the Stream. For example
+----------------------------------------------------------------------------------- 
+if you have a list of the list, then you can convert it to a big list by using flatMap() function.
+
+What does the filter() method do? when you use it?
+-----------------------------------------------------
+The filter method is used to filter elements that satisfy a certain condition that is specified using a Predicate function.
+
+A predicate function is nothing but a function that takes an Object and returns a boolean. For example, if you have a List of Integer and you want a list of even integers.
+
+In this case, you can use the filter to achieve that. You supply a function to check if a number is even or odd, just like this function and filter will apply this to stream elements and filter the elements which satisfy the condition and which doesn't.
+
+intermediate and terminal operations
+-------------------------------------------
+The intermediate Stream operation returns another Stream, which means you can further call other methods of Stream class to compose a pipeline.
+Intermediate 									|		Terminal
+------------------------------------------------|-----------------------------------
+Returns Stream for forther processing			| Termainates the stream and return end result.
+Map, FlatMap									|		ForEach, Collect
+Its used for pipeline of oprations				|
+
+
+Peek() --> Its used for debug step step while processing, using peek we can print meaningful message.
+---------------------
+
+FindAny------------------> Its find any return any element in steam which satisify the criterion
+findFirst----------------> Its retruns first element in stream which statisify  the criterion.
+Reduce-------------------> When we need combine elements of stream  and produce single result we will use reduce. 
+
+parallel Stream---------------->A parallel stream can parallel execute stream processing tasks. 
+For example, if you have a parallel stream of 1 million orders and you are looking for orders worth more than 1 million, then you can use a filter to do that.
+Unlike sequential Stream, the parallel Stream can launch multiple threads to search for those orders on the different part of Stream and then combine the result.
+
+
+Limit--------------------> it limits the stream values ex .limit(n) end result will be n number of collection object from m number of list.
+skip----------------------> It skips first n number of objects skip(n) will reutnr remaining object from m number of list.
+
+
+
+
+
+

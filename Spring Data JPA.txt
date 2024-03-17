@@ -1,0 +1,41 @@
+What is Spring Data JPA?
+-------------------------
+One of the Spring module. With help of JPA, It will help us to persits the data.
+
+How to create a custom repository in Spring Data JPA?
+---------------------------------------------------------
+Yes We can create cutom preository by extending 
+1) JPA Repository
+2) Pageing and Sorting repository which internally extends JPA repository
+3) QuarybyExamp
+
+
+JPA repository VS CURD repository
+----------------------------------
+JPA is extended form paging and sorting repository which internally extends curd repository.
+
+
+How you will write custom method in the repository in Spring Data JPA? What are rules to define Query methods(query creation from method names)?
+What are the important predefined repository interfaces and classes in Spring Data JPA?
+What is the hierarchy of repository interfaces/classes in Spring Data JPA?
+What are the important methods of Crudrepository to perform CRUD operations in Spring Data JPA?
+What are the features/benefits of Spring Data JPA?
+How to enable Spring Data JPA features.
+Define a simple repository method which returns all records/entities for a given name?
+How to define Query Methods for the nested property.
+Write JPQL using @Query annotation in Spring Data JPA.
+@NamedQuery vs @NamedNativeQuery in Spring Data JPA?
+Difference between CrudRepository and JpaRepository in Spring Data JPA?
+Difference between Repository and CrudRepository in Spring Data JPA?
+How CrudRepository save() methods internally works in Spring Data JPA?
+Tell something about the CrudRepository saveAll() method.
+How to write a query method for sorting using Spring Data JPA? 
+ 
+How to implement projection using Spring Data JPA? 
+How to write query using @NamedQueries and @NamedNativeQueries in Spring Data JPA.
+Difference between findById() and getOne() in Spring Data JPA?
+Explain the basic flow of Basic Spring Data JPA Flow.
+Difference between delete() vs deleteInBatch() Methods in Spring Data JPA. 
+Difference between deleteAll() Vs deleteAllInBatch() in Spring Data JPA.
+
+@Trasite annotation tells JPA to ignore that field to presists.
