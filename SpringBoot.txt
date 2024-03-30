@@ -1,11 +1,18 @@
+What is springboot?
+    1) Spring boot is an open-source Java-based framework. Using Spring Boot we can develop enterprise-level application which runs on JVM. With minimal configuration. 
+    2) We can develop microservice faster and easier using Spring Boot, with key features. 
+        Autoconfiguration--> Spring boot configures automatically configures spring application based on the jar dependencies that we have added
+        Spring-Boot Starter-->Opinionated approach You can need the project during the initialization phase, we can use multiple dependencies called Spring starters.
+        Ability to create standalone applications, Spring boot helps developers create an application that runs specifically. You can create a standalone application that runs on its own without relying on external web servers.     
 
-Why we need Spring Boot?------->1) Its a open-source micro framework. 2) Reduces development time and increases the overall productivity of the development team. 3) Helps you autoconfigure all components for a production-grade Spring application.
+Why do we need Spring Boot?
+1) Its an open-source micro framework. 2) Reduces development time and increases the overall productivity of the development team. 3) Helps you autoconfigure all components for a production-grade Spring application.
 4) Avoids writing lots of boilerplate code, annotations, and XML configuration. 5) Comes with embedded HTTP servers like Tomcat or Jetty to test web applications.
 
 Spring Boot Components
 What is Spring Boot Starter? Name a few. What starter applications have you worked with?
 -------------------------------
-pring Boot provides a number of starters that allow us to add jars in the classpath. Spring Boot built-in starters make development easier and rapid. For example, if we want to use Spring and JPA for database access, we need to include the spring-boot-starter-data-jpa dependency in our pom. ...
+spring Boot provides several starters that allow us to add jars in the classpath. Spring Boot built-in starters make development easier and rapid. For example, if we want to use Spring and JPA for database access, we need to include the spring-boot-starter-data-jpa dependency in our pom. ...
 
 What is Spring Boot AutoConfigurator?
 ------------------------------------
